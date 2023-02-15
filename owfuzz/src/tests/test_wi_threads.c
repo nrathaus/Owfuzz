@@ -3,7 +3,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <pthread.h>
-
+#include <stdbool.h>
 #include "osdep_wifi_transmit.h"
 
 pthread_mutex_t owq_mutex = PTHREAD_MUTEX_INITIALIZER;

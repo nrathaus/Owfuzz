@@ -52,7 +52,7 @@ test_wi_threads: test_wi_threads.c
 		$(RELATIVE_PATH)linux_wifi/trans/osdep/file.o \
 		-o test_wi_threads \
 		-lm \
-		$(NETLINKLIBS)
+		$(NETLINKLIBS) -lpthread
 
 clean:
 	rm $(OBJS)
